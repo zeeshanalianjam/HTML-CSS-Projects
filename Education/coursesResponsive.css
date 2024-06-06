@@ -1,0 +1,632 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+}
+
+@media screen and (min-width: 1151px) and (max-width: 1350px) {
+    body {
+
+        /* NavBar start */
+        .navBar {
+            justify-content: space-around;
+        }
+        .coursesTypesButton {
+            display: flex;
+        }
+        
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1150px) {
+    body {
+        .coursesTypesButton {
+            font-size: 20px;
+            display: flex;
+        }
+        .coursesBtn {
+            margin: 0px 100px;
+        }
+        .clientService {
+            gap: 50px;
+        }
+
+        .profesion {
+            gap: 50px;
+        }
+
+        .peopContianer {
+            gap: 0px;
+        }
+
+        .uiUxDesign {
+            width: 220px;
+            gap: 5px;
+            text-align: center;
+        }
+
+        #mrTanaka {
+            width: 220px;
+        }
+
+        .clientHeading {
+            gap: 0px;
+        }
+
+        .uiUxDesign p {
+            width: auto;
+            line-height: auto;
+            letter-spacing: 0px;
+        }
+
+        .devFooter {
+            gap: 0px;
+        }
+
+        .clientButton {
+            padding-right: 0px;
+        }
+
+        .stars {
+            display: flex;
+            align-items: center;
+        }
+
+        .stars img[src="assets/star2.png"] {
+            top: 4px;
+        }
+
+        .item {
+            width: 220px;
+        }
+
+        .item img {
+            width: 220px;
+        }
+
+        .peopelItem img {
+            width: 250px;
+        }
+
+        .emailItemContent input[type="text"] {
+            padding: 10px 20px;
+            width: 250px;
+            outline: none;
+            font-size: small;
+        }
+
+        .emailItemContent input[type="button"] {
+            width: auto;
+        }
+
+        .emailItemContent p {
+            width: 200px;
+        }
+
+        .footerCont {
+            padding: 40px 10px;
+        }
+
+        .footerContItem p {
+            width: 220px;
+            letter-spacing: 0px;
+        }
+
+        .footerContItem {
+            justify-content: start;
+            gap: 15px;
+        }
+    }
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    body {
+        .header {
+            padding: 1px;
+        }
+
+        ul li {
+            margin-left: 20px;
+        }
+
+        .clientService {
+            gap: 50px;
+        }
+
+        .profesion {
+            gap: 50px;
+        }
+
+        .peopContianer {
+            gap: 50px;
+            flex-direction: column;
+        }
+
+        .peopelItem {
+            gap: 0px;
+        }
+        .coursesTypesButton {
+            font-size: 20px;
+            display: flex;
+        }
+        .coursesBtn {
+            margin: 0px 50px;
+        }
+
+        .uiUxDesign {
+            width: 220px;
+            gap: 5px;
+            text-align: center;
+        }
+
+        #uiUxDesignItem-2 {
+            display: none;
+        }
+        #uiUxDesignItem-5{
+            display: none;
+        }
+
+        #mrTanaka {
+            width: 220px;
+        }
+
+        .clientHeading {
+            gap: 0px;
+        }
+
+        .uiUxDesign p {
+            width: auto;
+            line-height: auto;
+            letter-spacing: 0px;
+        }
+
+        .devFooter {
+            gap: 0px;
+        }
+
+        .clientButton {
+            padding-right: 0px;
+        }
+
+        .stars {
+            display: flex;
+            align-items: center;
+        }
+
+        .stars img[src="assets/star2.png"] {
+            top: 4px;
+        }
+
+        .item {
+            width: 220px;
+        }
+
+        .item img {
+            width: 220px;
+        }
+
+        #profesionItem-2 {
+            display: none;
+        }
+
+        .peopelItem img {
+            width: 250px;
+        }
+
+        .emailSubs {
+            background-color: #C2C2C2;
+            padding: 40px 30px;
+        }
+
+        .emailItemContent input[type="text"] {
+            width: 200px;
+        }
+
+        .emailItemContent input[type="button"] {
+            width: auto;
+        }
+
+        .emailItemContent p {
+            width: 200px;
+        }
+
+        .footerCont {
+            padding: 40px 10px;
+        }
+
+        .footerContItemParent {
+            display: flex;
+            justify-content: space-between;
+            padding: 40px;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+
+        .footerContItem p {
+            width: 220px;
+            letter-spacing: 0px;
+        }
+
+        .footerContItem {
+            justify-content: start;
+            gap: 15px;
+        }
+    }
+}
+
+
+@media screen and (min-width: 370px) and (max-width: 599px) {
+    body {
+        .header {
+            padding: 1px;
+        }
+
+        .navBar {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        ul li {
+            margin-left: 20px;
+        }
+
+        .searchBox input {
+            width: auto;
+        }
+
+       
+
+        .headingTxt p {
+            font-size: 20px;
+            width: auto;
+        }
+
+        .coursesTypesButton {
+            display: flex;
+            gap: 35px;
+        }
+        .coursesTypesContent h2 {
+            font-size: 20px;
+        }
+
+        .coursesBtn {
+            font-size: 12px;
+            margin: 0px;
+        }
+        #coursesBtn-3{
+            display: none;
+        }
+
+        .clientService {
+            gap: 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .profesion {
+            gap: 50px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .peopContianer {
+            gap: 50px;
+            flex-direction: column;
+        }
+
+        .peopelItem {
+            gap: 0px;
+            width: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .peopelItem img {
+            position: static;
+        }
+
+        .uiUxDesign {
+            width: 220px;
+            gap: 5px;
+        }
+
+        #uiUxDesignItem-2 {
+            display: block;
+        }
+
+        #mrTanaka {
+            width: 220px;
+        }
+
+        .clientHeading {
+            gap: 0px;
+        }
+
+        .uiUxDesign p {
+            width: auto;
+            line-height: auto;
+            letter-spacing: 0px;
+        }
+        .viewBtn button {
+            margin: 0px;
+        }
+        
+
+        .devFooter {
+            gap: 0px;
+        }
+
+        .clientButton {
+            padding-right: 0px;
+        }
+
+        .stars {
+            display: flex;
+            align-items: center;
+        }
+
+        .stars img[src="assets/star2.png"] {
+            top: 4px;
+        }
+
+        .item {
+            width: 220px;
+        }
+
+        .item img {
+            width: 220px;
+        }
+
+        #profesionItem-2 {
+            display: block;
+            display: flex;
+        }
+
+        .peopelItem img {
+            width: 250px;
+        }
+
+        .emailSubs {
+            background-color: #C2C2C2;
+            padding: 40px 30px;
+        }
+
+        .emailItemContent input[type="text"] {
+            width: 200px;
+        }
+
+        .emailItemContent input[type="button"] {
+            width: auto;
+        }
+
+        
+        .emailItem {
+            flex-direction: column;
+            gap: 30px;
+            padding-top: 20px;
+        }
+
+        .footerCont {
+            padding: 40px 10px;
+        }
+
+        .footerContItemParent {
+            display: flex;
+            justify-content: center;
+            padding: 40px;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+
+        .footerContItem p {
+            width: 220px;
+            letter-spacing: 0px;
+        }
+
+        .item-3 {
+            display: none;
+        }
+       
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 369px) {
+    body {
+        .header {
+            padding: 1px;
+        }
+
+        .navBar {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        ul li {
+            margin-left: 20px;
+        }
+        #menu ul {
+            display: block;
+            text-align: center;
+        }
+
+        .searchBox input {
+            width: auto;
+        }
+        .headerContent {
+            margin: 50px auto;
+            display: block;
+            gap: 0px;
+            text-align: center;
+        }
+
+        .headingTxt h1 {
+            font-size: 20px;
+        }
+
+        .headingTxt p {
+            font-size: 14px;
+            width: 80%;
+            
+        }
+        .coursesTypesContent h2 {
+            font-size: 20px;
+            padding-bottom: 30px;
+        }
+
+        .coursesTypesButton {
+            display: flex;
+            gap: 5px;
+        }
+
+
+        .coursesBtn {
+            font-size: 12px;
+            margin: 0px;
+        }
+        #coursesBtn-3{
+            display: none;
+        }
+
+        .clientService {
+            gap: 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .profesion {
+            gap: 50px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .peopContianer {
+            gap: 50px;
+            flex-direction: column;
+        }
+
+        .peopelItem {
+            gap: 0px;
+            width: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .peopelItem img {
+            position: static;
+        }
+
+        .uiUxDesign {
+            width: 190px;
+            gap: 5px;
+            text-align: center;
+        }
+        .viewBtn button {
+            margin: 0px;
+        }
+
+        #uiUxDesignItem-2 {
+            display: block;
+        }
+
+        #mrTanaka {
+            width: 190px;
+        }
+
+        .clientHeading {
+            gap: 0px;
+        }
+
+        .uiUxDesign p {
+            width: auto;
+            line-height: auto;
+            letter-spacing: 0px;
+        }
+        
+
+        .devFooter {
+            gap: 0px;
+        }
+
+        .clientButton {
+            padding-right: 0px;
+        }
+
+        .stars {
+            display: flex;
+            align-items: center;
+        }
+
+        .stars img[src="assets/star2.png"] {
+            top: 4px;
+        }
+
+        .item {
+            width: 220px;
+        }
+
+        .item img {
+            width: 220px;
+        }
+
+        #profesionItem-2 {
+            display: block;
+            display: flex;
+        }
+
+        .peopelItem img {
+            width: 250px;
+        }
+
+        .emailSubs {
+            background-color: #C2C2C2;
+            padding: 40px 30px;
+        }
+
+        .emailItemContent input[type="text"] {
+            width: 150px;
+        }
+
+        .emailItemContent input[type="button"] {
+            width: auto;
+        }
+
+        
+        .emailItem {
+            flex-direction: column;
+            gap: 30px;
+            padding-top: 20px;
+        }
+
+        .footerCont {
+            padding: 40px 10px;
+            text-align: center;
+        }
+
+        .footerContItemParent {
+            display: flex;
+            justify-content: center;
+            padding: 0px;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .footerContItem {
+            gap: 5px;
+        }
+
+        .footerContItem p {
+            width: 220px;
+            letter-spacing: 0px;
+        }
+
+        .item-3 {
+            display: none;
+        }
+       
+    }
+}

@@ -1,0 +1,652 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+/*----------------------------container----------------------*/
+#container{
+	display: flex;
+	height: 150px;
+	align-items: center;
+
+
+}
+
+/*----------------------------items----------------------*/
+.item{
+	position: absolute;
+}
+#item-1{
+	left: 10px;
+
+
+}
+#item-2{
+	left: 45%;
+
+	
+	
+}
+#item-3{
+
+	right: 10px;
+
+}
+
+
+/*----------------------------item-1 Icon----------------------*/
+.item ul{
+	display: flex;
+
+}
+.item ul li{
+	font-size: 13px;
+	width: 50px;
+	height: 50px;
+	background: #87788c;
+	border-radius: 50%;
+	margin: 0px 15px;
+	list-style: none;
+}
+.item li:hover{
+	background: blue;
+	cursor: pointer;
+}
+
+
+
+
+.item li a{
+	position: absolute;
+	top: 15px;
+	color: white;
+	text-decoration: none;
+
+
+}
+
+
+/*----------------------------item-2 Heading----------------------*/
+.item p{
+	font-size: 40px;
+
+}
+.item p span{
+	color: green;
+}
+
+
+/*----------------------------item-3 Search box with button----------------------*/
+.item input{
+	width: 200px;
+	height: 20px;
+	border-radius: 15px;
+	outline: none;
+	padding: 5px;
+	background: #c7c7ee;
+	border:none;
+	font-weight: bold;
+}
+
+.item button{
+	background:#64ca64;
+	font-size: 14px;
+	border:none;
+	border-radius: 10px;
+	padding: 4px;
+	cursor: pointer;
+	outline: none;
+	color: white;
+
+
+}
+.item button:hover{
+	background: greenyellow;
+}
+
+
+/*----------------------------Navbar and its Icon----------------------*/
+#navbar{
+background: #3a9d1e;
+height: 57px;
+
+
+}
+
+	
+
+#navbar ul{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	top: 17px;
+}
+#navbar ul li{
+	list-style: none;
+	margin: 0px 25px;
+	font-weight: bold;
+
+}
+
+#navbar li a{
+	text-decoration: none;
+	color: white;
+}
+#navbar li a:hover{
+
+	color: yellow;
+	transition: all 0.5 ease-in-out;
+	background: #3a9d1e;
+	
+
+
+}
+
+
+
+/*-----------------------Main Background and its Main Heading Section -------------------------------*/
+#bg::before{
+	content: "";
+	background: url('bg1.jpg') center center/cover;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+
+}
+#bg{
+	position: relative;
+	border:2px solid black;
+	height: 600px;
+}
+
+
+/*----------------------- Mulutipel heading in background section -------------------------------*/
+#bg h3,h5,h1,#btn{
+	position: absolute;
+	top: 160px;
+	left: 120px;
+
+}
+#bg h3{
+	font-weight: bold;
+	color: yellow;
+	font-family: sans-serif;
+}
+#bg h1{
+	font-size: 50px;
+	color: white;
+	top: 188px;
+}
+#bg h5{
+	top: 310px;
+	left: 127px;
+	font-weight: bold;
+	font-size: 15px;
+	color: #e6eae2;
+
+}
+#btn{
+	top:350px;
+	background: #3a9d1e;
+	border:none;
+	font-size: 30px;
+	border-radius: 10px;
+	padding: 4px;
+	color: white;
+	cursor: pointer;
+}
+#btn:hover{
+	background: greenyellow;
+	transition: all 0.5s ease-in-out;
+}
+
+
+
+/*----------------------------- Services Section ------------------------------*/
+#services::before{
+	content: "";
+	background: url('barley.jpg') center center/cover;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+	opacity: 0.7;
+
+
+}
+
+#services{
+	position: relative;
+	height: 700px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+
+
+}
+.item-services::before{
+	content: "";
+	background: black;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: -2;
+
+
+}
+
+
+.item-services{
+	position: relative;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 300px;
+	height: 340px;
+	margin: 10px 20px;
+	padding: 20px;
+	text-align: justify;
+	
+
+
+
+}
+.item-services img ,h2,p{
+	margin: 10px 0px;
+}
+.item-services h4{
+	position:relative;
+	color: black;
+	background: #8d8dc1;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+.item-services span{
+	font-size: 40px;
+
+}
+
+.item-services img{
+	background: white;
+	border:2px solid green;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	padding: 30px;
+	opacity: 0.6;
+
+
+}
+.item-services img:hover{
+	background: green;
+}
+
+
+.item-services input{
+	background: green;
+	border:none;
+	font-size: 30px;
+	padding: 5px;
+	border-radius: 20px;
+	cursor: pointer;
+	color: white;
+	outline: none;
+}
+.item-services input:hover{
+	transition: all 0.8s ease;
+	background: yellow;
+	color: black;
+
+
+}
+#services-1 h4,span,p,input{
+	margin: 15px 0px;
+}
+
+
+/*----------------------------- Gallery Section ------------------------------*/
+#gallery::before{
+	content: "";
+	background: url('bg hd19.jpg') no-repeat center center/cover;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+	opacity: 0.8;
+}
+#gallery{
+	position: relative;
+	height: 800px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.gallery-box{
+	width: 500px;
+	height: 650px;
+	margin: 0px 15px;
+}
+.gallery-box h3,h2,p,a{
+	margin-left: 5px;
+}
+.gallery-box h3{
+	color: green;
+}
+.gallery-box h2{
+	font-size: 40px;
+}
+.gallery-box p{
+	font-size: 20px;
+}
+.gallery-box ul{
+
+}
+.gallery-box ul li{
+	list-style: none;
+	background: rgb(224,204,236);
+	margin:10px 0px;
+	height: 65px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+
+}
+.gallery-box li:hover{
+	background: green;
+	color: white;
+
+
+}
+.gallery-box li a{
+	color: black;
+	font-size: 25px;
+	text-decoration: none;
+
+}
+.gallery-box li a:hover{
+	color: white;
+}
+
+
+
+/*----------------------------- Blooog Section ------------------------------*/
+
+#blog{
+	
+	height:700px;
+	text-align: center;
+}
+#blog h4{
+	font-size: 28px;
+}
+#blog h2{
+	font-size: 40px;
+}
+#blog h4,h2{
+	margin:25px 0px;
+}
+.main-blog{
+	margin:20px;
+	display: flex;
+	justify-content: center;
+
+}
+.blog-item{
+	
+	margin:20px;
+	width: 400px;
+	height: 500px;
+}
+.blog-item img{
+	width: 400px;
+	height: 300px;
+}
+.blog-item p{
+	text-align: justify;
+	
+}
+
+
+
+/*----------------------------- Contact Section ------------------------------*/
+
+#contact{
+	height: 1200px;
+}
+#contact-item1{
+	background:#127512;
+	color: white;
+	padding: 40px;
+
+
+}
+#contact-item1 h2{
+	font-size: 40px;
+}
+#contact-item1 p{
+	font-size: 20px;
+
+}
+#contact-item1 span{
+position: relative;
+left: 900px;
+bottom: 46px;
+font-size: 30px;
+color: yellow;
+}
+
+/*----------------------------- Contact-Main-Items ------------------------------*/
+ .contact-main-item::before{
+content: "";
+background: #95a3d7;
+width: 100%;
+height: 100%;
+position: absolute;
+z-index: -1;
+opacity: 0.3;
+
+ }
+ .contact-main-item{
+ 	position: relative;
+ 	height: 200px;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+ }
+ .main-item{
+ 	font-size: 25px;
+ 	margin:10px 0px;
+ 	padding: 25px;
+
+ }
+
+
+
+
+#contact-box{
+	height: 700px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.contact-box-item{
+	margin:10px 0px;
+	width: 500px;
+	height: 600px;
+	padding: 10px;
+
+}
+.contact-box-item h2{
+	font-size: 30px;
+	margin-top: 20px;
+
+}
+.contact-box-item h3{
+	margin-top: 40px;
+	color: green;
+
+}
+.contact-box-item input{
+	width: 500px;
+	border-top: none;
+	border-left:none;
+	border-right: none;
+	outline: none;
+	font-size: 20px;
+
+}
+.contact-box-item img{
+	width: 500px;
+	height:600px;
+}
+.contact-box-item button{
+	width: 200px;
+	border:none;
+	background: green;
+	color: white;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 20px;
+	padding: 8px;
+	font-family: sans-serif;
+	font-weight: bold;
+
+}
+.contact-box-item button:hover{
+	background: brown;
+}
+
+
+
+
+/*----------------------------- About-us Section ------------------------------*/
+#about-us{
+	height: 700px;
+
+}
+.about{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: green;
+	color:white;
+
+}
+
+.about-us-heading{
+	
+	margin:10px 45px;
+	
+
+}
+.about-us-heading h2{
+	font-size: 30px;
+}
+.about-us-heading input{
+	font-size: 20px;
+	padding: 5px;
+	border-radius: 5px;
+	outline: none;
+	border:none;
+}
+.about-us-heading input[name="button"]{
+	position: relative;
+	right: 10px;
+	background: #57214f;
+	color: white;
+	border:none;
+	padding: 5px;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 2px;
+
+
+}
+.about-us-heading input[name="button"]:hover{
+	background: greenyellow;
+	color: black;
+
+}
+
+/*----------------------------- About-Us-footer ------------------------------*/
+.footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: sans-serif;
+
+
+}
+.footer-item{
+	
+	width: 300px;
+	height: 400px;
+	margin:10px 15px;
+}
+
+.footer::before{
+	content: "";
+	background: black;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+	opacity: 0.9;
+}
+
+.footer{
+	position: relative;
+	color: white;
+	height: 600px;
+
+}
+.footer-item h2{
+	font-size: 40px;
+
+}
+.footer-item span{
+	color: #19dd19;
+}
+.footer-item h3{
+font-size: 30px;
+	margin:30px 0px;
+}
+.footer-item ul li{
+	list-style: none;
+	font-size: 20px;
+	padding: 5px;
+}
+.footer-item li a{
+	text-decoration: none;
+	color: white;
+}
+.footer-item li a:hover{
+	color: green;
+	transition: all 0.2s ease-in-out
+}
+
+.footer-item p{
+	font-size: 20px;
+	text-align: justify;
+}
+.footer-item li {
+	font-size: 20px;
+	list-style: none;
+	padding: 5px;
+}
+
+
+
+
+
+
+
+

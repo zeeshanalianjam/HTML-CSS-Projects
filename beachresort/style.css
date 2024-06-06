@@ -1,0 +1,627 @@
+/*universal selectors with clear mraing and padding of container*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*main background of body set*/
+.bg::before{
+	content: "";
+	background: url('images/bg 3.jpg') no-repeat center center/cover;
+	width: 100%;
+	height: 102%;
+	position: absolute;
+	z-index: -1;
+}
+.bg{
+position: relative;
+}
+
+/*main logo of developer*/
+.logo img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: relative;
+	left: 264px;
+}
+.flex-box{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*second background color of black with low opacity.. this background work for web body*/
+.home-container::before{
+	content: "";
+	background: black;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+	opacity: 0.5;
+}
+.home-container{
+	position: relative;
+	width: 65%;
+	height: 200vh;
+}
+
+/*start our main icon home icon tab*/
+.navbar ul{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.navbar li::before{
+	content: "";
+	background: #611c1c;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+	opacity: 0.5;
+	
+}
+.navbar li{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	list-style: none;
+	border:1px solid green;
+	border-bottom: none;
+	border-top: none;
+	
+
+	width: 15%;
+	height: 50px;
+	text-align: center;
+	
+}
+
+.navbar li a{
+	color: white;
+	text-decoration: none;
+	padding: 18px;
+	width: 93px;
+
+}
+
+.navbar li a.active{
+	background: greenyellow;
+
+}
+.navbar li a:hover{
+	background: greenyellow;
+
+}
+
+
+
+
+/*icon below of image this image of body*/
+.beach-pic img{
+	position: relative;
+	top: 50px;
+	width: 99%;
+	height: 410px;
+	border:3px solid white;
+}
+
+/*container 2 start first heading and pragraph*/
+.container-2{
+	position: relative;
+	top: 90px;
+	color: white;
+}
+.text-para h2,p{
+	margin: 15px 0px;
+	text-align: justify;
+}
+.text-para h2{
+	color: greenyellow;
+	
+
+}
+
+/*this section for mulptile heading and paragraph and with images of link*/
+.body-section-with-item{
+	display: flex;
+
+}
+.icon{
+	margin: 10px 0px;
+	background: white;
+	color: black;
+	width: 350px;
+	height: 400px;
+	padding: 20px;	
+
+}
+.icon h3::before{
+	content: "";
+	background: pink;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	opacity: 0.4;
+
+
+}
+.icon h3{
+	font-weight: bold;
+	font-size: 30px;
+	position: relative;
+	bottom: 8px;
+
+
+}
+.icon p , p{
+	line-height: 25px;
+}
+#icon1{
+	width:550px; 
+	height: 330px;
+
+}
+#icon2{
+	width:300px;	
+	margin-left: 20px;
+	background: none; 
+}
+.icon-in-text{
+	margin: 0px 10px;
+}
+.advataisment-pic img{
+	position: relative;
+	top: -32px;
+	right: 20px;
+	width: 342px;
+	height: 175px;
+
+
+}
+
+/*home page pics hover*/
+.advataisment-pic img:hover{
+	
+background: red;
+
+}
+.advataisment-pic img ,img{
+	margin: 10px 0px;
+}
+
+/*last heading and pragraphe of this home with image of link*/
+.icon-of-home-of-last{
+	display: flex;
+	position: relative;
+	top: -70px;
+
+
+}
+.last-icon-1{
+	background: white;
+	color: black;
+}
+.last-icon-1 h2{
+	color: green;
+}
+#last-icon-2{
+	position: relative;
+	right: 0px;
+	top: 10px;
+	width: 516px;
+	padding: 25px;
+	height: 118px;
+}
+#last-icon-3{
+	position: relative;
+	left: 22px;
+	background: none;
+
+}
+#last-icon-3 img{
+	width: 338px;
+
+}
+
+
+/*footer this home tab this footer for home icon selected*/
+.footer{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.home-footer ul{
+	display: flex;
+	background: red;
+	width: 900px;
+	align-items: center;
+	justify-content: center;
+	border-radius: 20px;
+
+
+}
+.home-footer li{
+	list-style: none;
+	margin: 0px 20px;
+
+}
+.home-footer a{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+
+	
+}
+.home-footer a:hover{
+	color: gray;
+}
+
+
+/*END OF HOME SECTION/PAGE AND NEW START PAGE/SECTION*/
+
+/*----Start About Us page----*/
+
+
+/*second background color of black with low opacity.. this background work for web body*/
+.about-container::before{
+	content: "";
+	background: black;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+	opacity: 0.5;
+}
+.about-container{
+	position: relative;
+	width: 65%;
+	height: 178vh;
+}
+
+
+.first-body-section{
+margin: 50px 0px;
+}
+.about-us-first-division{
+	background: white;
+	padding: 20px 50px;
+}
+.about-us-first-division h1 , h2 {
+	color: green;
+	margin: 10px 0px;
+}
+.about-us-first-division p{
+	text-align: justify;
+	margin: 30px 0px;
+	line-height: 35px;
+}
+
+/*second division and center body section*/
+.about-us-second-division{
+	display: flex;
+	
+
+}
+.two-parts-division{
+	border:1px solid black;
+	
+
+}
+#first-part{
+	border:none;
+position: relative;
+left: -50px;
+
+}
+#second-part{
+	padding: 0px 10px;
+	padding-left: 50px;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+
+}
+
+/*footer this home tab this footer for home icon selected*/
+.footer{
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+.about-footer ul{
+	display: flex;
+	background: red;
+	width: 900px;
+	align-items: center;
+	justify-content: center;
+	border-radius: 20px;
+	position: relative;
+	top: 70px;
+
+
+}
+.about-footer li{
+	list-style: none;
+	margin: 0px 20px;
+
+}
+.about-footer a{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+
+	
+}
+.about-footer a:hover{
+	color: gray;
+}
+
+/*END OF ABOUT US SECTION/PAGE AND NEW START PAGE/SECTION*/
+
+/*----Start Rooms section/page----*/
+
+/*main background of body set*/
+.rooms-bg::before{
+	content: "";
+	background: url('images/bg 3.jpg') no-repeat center center/cover;
+	width: 100%;
+	height: 108%;
+	position: absolute;
+	z-index: -1;
+}
+.rooms-bg{
+position: relative;
+}
+
+/*second background color of black with low opacity.. this background work for web body*/
+.rooms-container::before{
+	content: "";
+	background: black;
+	width: 100%;
+	height: 106%;
+	position: absolute;
+	z-index: -1;
+	opacity: 0.5;
+}
+.rooms-container{
+	position: relative;
+	width: 65%;
+	height: 185vh;
+}
+
+.rooms-body-section{
+	margin: 30px 0px;
+	background: white;
+}
+.room-first {
+	padding: 40px 40px;
+}
+.room-first h1{
+	font-size: 30px;
+	color: green;
+	
+}
+
+
+/*footer this home tab this footer for home icon selected*/
+.footer{
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+.rooms-footer ul{
+	display: flex;
+	background: red;
+	width: 900px;
+	align-items: center;
+	justify-content: center;
+	border-radius: 20px;
+	position: relative;
+	top: 120px;
+
+
+}
+.rooms-footer li{
+	list-style: none;
+	margin: 0px 20px;
+
+}
+.rooms-footer a{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+
+	
+}
+.rooms-footer a:hover{
+	color: gray;
+}
+
+/*END OF ROOMS SECTION/PAGE AND NEW START PAGE/SECTION*/
+
+/*----Start Dive Site page----*/
+.divesite-text {
+	width: 397px;
+}
+/*END OF DIVE SITE SECTION/PAGE AND NEW START PAGE/SECTION*/
+
+/*----Start Food  page----*/
+.food-pics{
+
+}
+.food-pics img{
+	width: 278px;
+	margin: 50px 0px;
+
+}
+/*END OF FOOD SECTION/PAGE AND NEW START PAGE/SECTION*/
+
+/*----Start News  page----*/
+.news-section{
+	display: flex;
+}
+.news-section-item{
+	border:1px solid black;
+
+}
+
+/*<!--Section/Division-1-->*/
+#news-section-item-1{
+	width: 700px;
+	border:none;
+	padding-right: 40px;
+}
+#news-section-item-1 p{
+	line-height: 40px;
+}
+#news-section-item-2{
+	padding-left: 30px;
+	border-top:none;
+	border-right:none;
+	border-bottom: none;
+
+
+}
+#news-section-item-2 p{
+	line-height: 30px;
+}
+
+
+/*END OF NEWS SECTION/PAGE AND NEW START PAGE/SECTION*/
+
+/*----Start Contact  page----*/
+/*main background of body set*/
+.rooms-bg::before{
+	content: "";
+	background: url('images/bg 3.jpg') no-repeat center center/cover;
+	width: 100%;
+	height: 108%;
+	position: absolute;
+	z-index: -1;
+}
+.rooms-bg{
+position: relative;
+}
+
+/*second background color of black with low opacity.. this background work for web body*/
+.contact-container::before{
+	content: "";
+	background: black;
+	width: 100%;
+	height: 106%;
+	position: absolute;
+	z-index: -1;
+	opacity: 0.5;
+}
+.contact-container{
+	position: relative;
+	width: 65%;
+	height: 185vh;
+}
+
+.contact-body-section{
+	margin: 30px 0px;
+	background: white;
+	height: 160vh;
+}
+.contact-first {
+	padding: 40px 40px;
+}
+.contact-first h1{
+	font-size: 30px;
+	color: green;
+	
+}
+
+
+.contact-section{
+	
+	margin-top: 50px;
+}
+.contact-section-item{
+		margin: 50px 0px;
+}
+#contact-section-item-1{
+	width: 348px;
+	padding-right: 30px;
+}
+#contact-section-item-2{
+	
+	
+}
+
+
+/*footer this home tab this footer for home icon selected*/
+.footer{
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+.contact-footer ul{
+	display: flex;
+	background: red;
+	width: 900px;
+	align-items: center;
+	justify-content: center;
+	border-radius: 20px;
+	position: relative;
+	top: 580px;
+
+
+}
+.contact-footer li{
+	list-style: none;
+	margin: 0px 20px;
+
+}
+.contact-footer a{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+
+	
+}
+.contact-footer a:hover{
+	color: gray;
+}
+
+/*END OF CONTACT SECTION/PAGE AND END OF THIS WEBSITE*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

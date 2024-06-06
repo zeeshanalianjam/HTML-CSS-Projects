@@ -1,0 +1,477 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+}
+
+/* Header Part start*/
+.header {
+    padding: 20px 60px 20px 60px;
+}
+
+/* NavBar start */
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+/* nav logo */
+#logo img {
+    width: 120px;
+}
+
+/* nav menu */
+#menu ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 40px;
+    padding-top: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+/* nav right side button */
+#rightButton {
+    margin-top: 8px;
+}
+
+.btnNav {
+    padding: 2px 5px;
+    background: none;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.btnNav:hover {
+    cursor: pointer;
+    background-color: #dfe9ee;
+    transition: ease-in-out 0.3s;
+}
+#btn1 a{
+    color: black;
+    text-decoration: none;
+}
+
+#btn2 {
+    background-color: #3D348B;
+    color: white;
+}
+#btn2 a{
+    color: white;
+    text-decoration: none;
+}
+
+#btn2:hover {
+    background-color: #090533;
+}
+
+/* header section start */
+.headerContent {
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 70px;
+    text-align: center;
+}
+
+
+.headingTxt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.headingTxt h1 {
+    font-size: 40px;
+}
+
+.headingTxt p {
+    font-size: 20px;
+    width: 485px;
+}
+
+.btnHead {
+    background-color: #3D348B;
+    color: white;
+    padding: 8px 25px;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    transition: ease-in-out 0.4s;
+    cursor: pointer;
+}
+
+.btnHead:hover {
+    background-color: #090533;
+}
+
+/* header sec end */
+
+/* types of courses section start */
+.coursesTypes {
+    background-color: #D9D9D9;
+    /* border: 2px solid red; */
+    padding: 20px;
+    text-align: center;
+}
+.Ui_UX{
+    background-color: #E4CCE8;
+}
+.coursesTypesCyber{
+    background-color: #D0DBDA;
+}
+
+.coursesTypesContent {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.coursesTypesContent h2 {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.coursesTypesContent h2>span {
+    color: #3D348B;
+}
+
+.coursesTypesContent p {
+    letter-spacing: 0.7px;
+    line-height: 1.2;
+    font-size: 20px;
+    width: 310px;
+}
+
+.coursesTypesButton {
+    font-size: 20px;
+}
+
+
+
+/* types of courses section end */
+
+/* client service intro section start */
+.clientService {
+    background-color: #D9D9D9;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+.clientServiceUiUX{
+    background-color: #E4CCE8;
+}
+.clientServiceCyber{
+    background-color: #D0DBDA;
+}
+
+.uiUxDesign {
+    background-color: #D9D9D9;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0.1px 0.1px 20px #3D348B, -0.1px -0.1px #3D348B;
+
+}
+.coursesBtn {
+    font-size: 17px;
+    background-color: #80B9C2;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 700;
+    margin: 0px 160px;
+}
+
+#mrTanaka {
+    width: 300px;
+}
+
+#price {
+    color: #3D348B;
+
+}
+
+.clientHeading {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 60px;
+
+}
+
+.uiUxDesign p {
+    width: 250px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+}
+
+.devFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    gap: 60px;
+    padding: 0px 10px 10px 10px;
+}
+
+.stars img[src="assets/star2.png"] {
+    position: relative;
+    top: 8px;
+}
+
+.uiUxDesign button {
+    background-color: #3D348B;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.clientButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 5px;
+    gap: 14px;
+}
+
+.clientButton img {
+    width: 10px;
+}
+
+#lessonInfo {
+    font-size: 12px;
+}
+.viewBtn{
+    background-color: #D9D9D9;
+    text-align: center;
+    padding: 40px 0px;
+}
+.viewBtnUiUX{
+    background-color: #E4CCE8;
+}
+.viewBtnCyber{
+    background-color: #D0DBDA;
+}
+.viewBtn button{
+    font-size: 17px;
+    background-color: #80B9C2;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 700;
+    margin: 0px 160px;
+}
+/* types of courses section start end */
+
+/* our professionals */
+.pro {
+    text-align: center;
+    background-color: #D1E7A6;
+    padding: 50px 0px;
+}
+
+.pro h2 {
+    padding-bottom: 40px;
+    letter-spacing: 2px;
+
+}
+
+.profesion {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    background-color: #B8D5D9;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    box-shadow: 0.1px 0.1px 20px gray, -0.1px -0.1px gray;
+}
+
+.item img {
+    width: 300px;
+
+}
+
+.proIntro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px 15px 0px;
+    gap: 30px;
+}
+
+/* our professions end */
+
+/* people says about courses start */
+.peopleAboutCourses {
+    padding: 40px;
+
+}
+
+.peopleAboutCourses h2 {
+    text-align: center;
+    padding-bottom: 40px;
+    letter-spacing: 2px;
+}
+
+.peopContianer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+
+}
+
+.peopelItem {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.peopelItem img {
+    width: 350px;
+    position: relative;
+    left: 120px;
+    box-shadow: 0.1px 0.1px 20px rgb(170, 120, 120), -0.1px -0.1px #3D348B;
+    border-radius: 10px;
+
+}
+
+.peopelItem p {
+    line-height: 25px;
+    letter-spacing: 0.5px;
+}
+
+.sign {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* people says about courses end */
+
+/* email subscripton start */
+.emailSubs {
+    background-color: #C2C2C2;
+    padding: 40px 100px;
+}
+
+.emailSubs h3 {
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+
+.emailItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.emailItemContent input {
+    padding: 10px 20px;
+    border: none;
+}
+
+.emailItemContent input[type="text"] {
+    padding: 10px 20px;
+    width: 350px;
+    outline: none;
+    font-size: small;
+}
+
+.emailItemContent input[type="button"] {
+    position: relative;
+    background-color: #3D348B;
+    color: white;
+    position: relative;
+    right: 10px;
+    width: 150px;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+
+.emailItemContent input[type="button"]:hover {
+    background-color: #8a80c2;
+}
+
+/* email subscripton end */
+
+/* footer section  */
+.footerCont {
+    padding: 40px 100px;
+
+}
+
+.footerContItemParent {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+
+
+}
+
+.footerContItem p {
+    text-align: center;
+    width: 300px;
+    letter-spacing: 0.3px;
+}
+
+.footerContItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.item-3 h2 {
+    text-align: center;
+}
+
+.item-3 {
+    align-items: baseline;
+
+}
+
+
+.icon img {
+    width: 35px;
+    margin: 0px 10px;
+
+}
+
+
+/* footer section  end */

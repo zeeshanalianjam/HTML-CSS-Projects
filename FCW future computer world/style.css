@@ -1,0 +1,443 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+/*-----------------Main-Background-------------*/
+.bg-color1::before{
+	content: "";
+	background:url('images/bg.jpg') no-repeat center center/cover;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+	opacity: 0.7;
+
+}
+
+.bg-color1{
+	position: relative;
+	height: 320vh;
+
+}
+
+
+/*-----------------Header-------------*/
+#head{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.logo{
+	margin: 20px 34px;
+}
+.logo img{
+	width: 100px;
+	height: 100px;
+	border-radius: 4%;
+
+}
+.logo h2 , h4{
+	text-align: center;
+	color: #f6f7be;
+
+}
+
+/*-----------------Main Section/Container-------------*/
+#home-container::before{
+	content: "";
+	background: white;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+	opacity: 0.8;
+
+}
+#home-container{
+	position: relative;
+	border:5px solid tomato;
+	width: 75%;
+	margin: 20px auto;
+	height: 273vh;
+	overflow: hidden;
+
+}
+/*-----------------Navigation Bar-------------*/
+.navbar{
+	border:2px solid white;
+}
+.navbar ul{
+	display: flex;
+
+}
+.navbar li{
+	list-style: none;
+	border:1px solid #e0eaf7;
+
+}
+.navbar li a{
+	text-decoration: none;
+	color: black;
+	width: 131px;
+	height: 50px;
+	font-size: 15px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(217,217,218,1);
+
+
+}
+.navbar li a:hover{
+	color: tomato;
+}
+
+
+/*--------------PM-img-Section----------------*/
+.slider{
+
+	margin: 10px;
+}
+.slider img{
+
+	width: 100%;
+	height: 300px;
+	border-radius: 5px;
+	margin: 5px 0px 0px 0px;	
+
+}
+
+
+
+
+/*-----------------Container-2 With Sections-------------*/
+.container-2{
+	display: flex;
+
+
+}
+.text ,.scroll-bar{
+	margin: 10px 15px;
+}
+.text{
+	
+	width: 62%;
+}
+.scroll-bar{
+	
+	width: 30%;
+}
+.text h2{
+	background: gray;
+}
+
+.text h2 , p{
+	margin: 20px 15px;
+	text-align: justify;
+}
+.text h4{
+	color: blue;
+	font-weight: bold;
+	position: relative;
+	text-align: right;
+	bottom: 10px;
+	right: 15px;
+
+}
+
+
+
+/*--------------announcenment Section----------------*/
+
+
+.announcenment img{
+	position: relative;
+    width: 627px;
+    height: 200px;
+    left: 15px;
+}
+ .button{
+	position: relative;
+	right: 15px;
+	float: right;
+	cursor: pointer;
+	height: 25px;
+	width: 100px;
+	padding: 5px;
+	background: darkblue;
+	color: white;
+	font-weight: bold;	
+	border:none;
+	border-radius: 5px;
+}
+.button:hover{
+	background: blue;
+}
+
+
+
+/*--------------free online course and details Section----------------*/
+.free-online-course{
+	margin:45px 15px;
+	border:2px solid red;
+	border-left: none;
+	border-right: none; 
+}
+.free-online-course h3{
+	font-size: 23px;
+	font-family: verdana;
+}
+.free-online-course button{
+	position: relative;
+	bottom: 41px;
+	left: 0px;
+
+}
+
+
+
+
+/*--------------Exclusive Free Opportunity Section----------------*/
+.exclusive-free-opportunity h3{
+	font-size: 23px;
+	font-family: verdana;
+	margin: 30px 15px;
+}
+
+
+/*--------------------------------------End of This Section-----------------------------------*/
+
+/*--------------------------------------Start my Scroll bar-----------------------------------*/
+.scroll-bar{
+	padding: 20px 15px;	
+
+}
+.scroll-bar img{
+	border:5px solid white;
+	width: 310px;
+	height: 350px;
+
+}
+.news{
+	height: 300px;
+	
+}
+
+.news h2{
+	background: gray;
+}
+.news h4{
+	color: black;
+}
+.news h4 span{
+	color: green;
+}
+
+/*-----------------------------twitter scroll bar-----------------------------*/
+.twitter{
+	border:1px solid gray;
+	border-right: none;
+	border-left: none;
+	height: 400px;
+	overflow: scroll;
+
+}
+.twitter li{
+	list-style: none;
+	position: relative;
+	bottom: 19px;
+	left: 64px;
+}
+
+
+.student-img-slider img{
+	position: relative;
+	top: 50px;
+	width: 310px;
+	height: 200px;
+}
+.online-notice{
+	position: relative;
+	top: 70px;
+}
+.online-notice h2{
+	background: gray;
+}
+
+.online-notice img{
+	position: relative;
+    top: 15px;
+    height: 100px;
+    width: 329px;
+    left: -8px;
+}
+.external-links{
+	position: relative;
+	top: 95px;
+}
+.external-links h2{
+	background: gray;
+}
+.external-links li{
+	position: relative;
+	top: 20px;
+	left: 18px;
+	color:gray;
+}
+
+/*-------------------------------------------------------Courses Page-----------------------------------------------------------------*/
+/*-----------------Main-Background-------------*/
+.bg-color2::before{
+	content: "";
+	background:url('images/bg.jpg') no-repeat center center/cover;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+	opacity: 0.7;
+
+}
+
+.bg-color2{
+	position: relative;
+	height: 370vh;
+
+}
+
+/*-----------------Main Section/Container-------------*/
+#courses-container::before{
+	content: "";
+	background: white;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+	opacity: 0.8;
+
+}
+
+#courses-container{
+	position: relative;
+	border:5px solid tomato;
+	width: 75%;
+	margin: 20px auto;
+	height: 327vh;
+	overflow: hidden;
+
+}
+.table-section{
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.table-heading{
+	position: relative;
+	left: 28px;
+	color: blue;
+	font-size: 20px;
+	font-weight: bold;
+}
+.my-table{
+	width: 95%;
+
+}
+
+.my-table tr td{
+	border-collapse:"no-collapse"; 
+}
+.my-table tr th{
+	background: gray;
+}
+.my-table span{
+	color: blue;
+	position: relative;
+	left: 5px;
+	font-weight: bold;
+}
+.table-list li{
+	position: relative;
+	left: 25px;
+
+}
+.list-color1{
+	background:#9595d2;
+}
+.list-color2{
+	background:#f5d0eb;
+}
+hr{
+	position: relative;
+	left: 25px;
+}
+
+/*Section no 4 with footer text*/
+.last-section{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footer{
+	
+	width: 95%;
+}
+
+.last-ul{
+	margin: 10px 0px;
+}
+.last-ul li{
+	position: relative;
+	left: 45px;
+	margin: 10px 0px;
+	font-weight: bold;
+
+}
+
+/*------------------------Rules & Regulations Page---------------------*/
+.section-body{
+	display: flex;
+	justify-content: center;
+
+}
+.headings-with-paras{
+	border:2px solid black;
+	width: 98%;
+}
+.rules-page-headings{
+	color:#f6b21d;
+	position: relative;
+	left: 5px;
+	font-family: verdana;
+}
+
+.headings-with-paras li{
+	position: relative;
+	left: 25px;
+}
+.headings-with-paras , .icon{
+	margin: 20px 0px;
+}
+.headings-with-paras p{
+	text-indent: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

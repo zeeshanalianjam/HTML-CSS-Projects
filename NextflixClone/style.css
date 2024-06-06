@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Oswald&family=Poppins:wght@500&family=Roboto+Slab:wght@400;500&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header::before {
+    content: ' ';
+    background-image: url(./img/PK-en-20231113-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    width: max(1200px , 100%);
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    opacity: 0.3;
+
+}
+
+.head-content {
+    width: 80vw;
+    height: 90vh;
+    margin: 20px auto;
+    padding: 1.5rem 0px;
+}
+
+.header-container-logo {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo img {
+    width: 200px;
+}
+
+.btn button {
+    background-color: rgb(229, 9, 20);
+    padding: 10px 23px;
+    font-size: 18px;
+    font-weight: 300;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    border: none;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    background-color: rgb(193, 17, 25);
+    transition: all 0.3s ease-in-out;
+}
+
+.head-txt {
+    margin: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:85vh;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    gap: 20px;
+}
+
+.header-head1 {
+    font-size: 68px;
+}
+
+.header-head2 {
+    font-size: 30px;
+}
+
+.header-head3 {
+    font-size: 25px;
+}
+.head-box{
+    display: flex;
+    gap: 10px;
+}
+.head-box input{
+    font-size: 18px;
+    padding: 4px 10px;
+    background-color: rgba(23,23,23,0.43);
+    border-radius: 7px;
+    border: 2px solid green;
+    color: white;
+    width: 400px;
+}
+.head-box button{
+    padding: 20px 50px;
+    display: flex;
+    font-size: 30px;
+}
+
+.head-box button svg{
+    filter: invert();
+    font-weight: bold;
+    font-size: 30px;
+}
+.seprate{
+    width: 100%;
+    height: 10px;
+    background-color: gray;
+    margin-top: 54px;
+}
+
+/* First Section Start here */
+.first{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 34px;
+    position: relative;
+}
+.first-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 530px;
+    margin: 0px auto;
+    gap: 25px;
+    
+}
+.first-content span{
+    font-size:68px;
+}
+.first-content p{
+    font-size: 30px;
+}
+.first-img video{
+    position:absolute;
+    top: 91px;
+    right: 15.4%;
+    z-index: -1;
+}
+/* ----------------- Second_Section -----------------   */
+.second-sec{
+    gap: 0px;
+    text-align: center;
+}
+.second-content{
+    position: relative;
+    right: 10% ; 
+}
+/* ----------------- Third_Section -----------------   */
+.third-sec{
+    text-align: center;
+}
+
+.third-img img{
+    margin-top: 44px;
+    position: relative;
+    right: 10%;
+}
+/* ----------------- Fouth_Section -----------------   */
+.fourth-sec{
+    text-align: center;
+}
+.fourth-content{
+    position: relative;
+    right: 10%;
+}
+
+

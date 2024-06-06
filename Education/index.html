@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+    </style>
+    <link rel="stylesheet" href="indexResponsive.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header start -->
+    <div class="header">
+        <!-- myNavBar Start -->
+        <nav class="navBar">
+            <div id="logo"><img src="assets/logo.png" alt=""></div>
+            <div id="menu">
+                <ul>
+                    <li><a href="index.html" active>Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contactUs.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div id="rightButton">
+                <button class="btnNav" id="btn1"><a href="sign.html" target="_blank">Sign in</a></button>
+                <button class="btnNav" id="btn2"><a href="sign.html" target="_blank">Sign UP</a></button>
+            </div>
+        </nav>
+        <hr color="black" size="1">
+        <!-- MyNavBar End -->
+
+        <!-- header section start -->
+        <section class="headerContent">
+            <div class="searchBox">
+                <i id="homeIcon" class="fa-solid fa-house"></i><input type="text" name="searchBox" id="search"
+                    placeholder="Serach for Courses"><i id="searchIcon" class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="headingTxt">
+                <h1>Unleash <br> Your Potential</h1>
+                <p>Master in-demand skills and get ahead in your career</p>
+            </div>
+            <div class="headerButton">
+                <button class="btnHead">Courses Enroll Now!</button>
+            </div>
+        </section>
+        <!-- header section end -->
+    </div>
+    <!-- header end -->
+
+    <!-- types of courses section start -->
+    <div class="coursesTypes">
+        <div class="coursesTypesContent">
+            <h2>We provide many types of <span>courses</span></h2>
+            <p> Unleash your inner creative genius with comprehensive design training.</p>
+            <div class="coursesTypesButton">
+                <button class="coursesBtn">Design</button>
+                <button class="coursesBtn">Popular</button>
+                <button class="coursesBtn" id="coursesBtn-3">Development</button>
+                <button class="coursesBtn" id="coursesBtn-4">Marketing</button>
+            </div>
+        </div>
+        <!-- client service information -->
+        <div class="clientService">
+            <!-- ui-ux item 1 -->
+            <div class="uiUxDesign">
+                <img id="mrTanaka" src="assets/mrTanaka.png" alt="Source not found">
+                <div class="clientHeading">
+                    <h3 id="devName">UI_UX Design </h3>
+                    <h3 id="price">$100</h3>
+                </div>
+                <p> Master the fundamentals of design to create a strong visual identity that resonates.</p>
+                <hr width="100%" color="green" size="1">
+                <div class="devFooter">
+
+                    <div class="devInfo">
+
+                        <img src="assets/drPatelLogo.png" alt="Source not found">
+                        <h4>Mr. Tanaka</h4>
+
+                        <div class="stars">
+                            <img src="assets/star1.png" alt="starRating loading error">
+                            <img src="assets/star1.png" alt="starRating loading error">
+                            <img src="assets/star1.png" alt="starRating loading error">
+                            <img src="assets/star2.png" alt="starRating loading error">
+                        </div>
+                    </div>
+                    <div class="clientButton">
+                        Time Duration
+                        <span id="lessonInfo">
+                            <img src="assets/Group.png" alt="">
+                            40 Lesson
+                            <img src="assets/clock.png" alt="">
+                            6 Hours
+                        </span>
+                        <button>Book Now</button>
+
+                    </div>
+                </div>
+            </div>
+            <!-- ui-ux item 2 -->
+            <div class="uiUxDesign" id="uiUxDesignItem-2">
+                <img id="mrTanaka" src="assets/drPatel.png" alt="Source not found">
+                <div class="clientHeading">
+
+                    <h3 id="devName">Web Development</h3>
+                    <h3 id="price">$200</h3>
+                </div>
+                <p> Master the fundamentals of design to create a strong visual identity that resonates.</p>
+                <hr width="100%" color="green" size="1">
+                <div class="devFooter">
+
+                    <div class="devInfo">
+
+                        <img src="assets/drPatelLogo.png" alt="Source not found">
+                        <h4>Mr. Pattaka</h4>
+
+                        <div class="stars">
+                            <img src="assets/star1.png" alt="starRating loading error">
+                            <img src="assets/star1.png" alt="starRating loading error">
+                            <img src="assets/star1.png" alt="starRating loading error">
+                            <img src="assets/star2.png" alt="starRating loading error">
+                        </div>
+                    </div>
+                    <div class="clientButton">
+                        Time Duration
+                        <span id="lessonInfo">
+                            <img src="assets/Group.png" alt="">
+                            40 Lesson
+                            <img src="assets/clock.png" alt="">
+                            6 Hours
+                        </span>
+                        <button>Book Now</button>
+
+                    </div>
+                </div>
+            </div>
+            <!-- ui-ux item 3 -->
+            <div class="uiUxDesign">
+                <img id="mrTanaka" src="assets/mrGarcia.png" alt="Source not found">
+                <div class="clientHeading">
+
+                    <h3 id="devName">UI_UX Design </h3>
+                    <h3 id="price">$100</h3>
+                </div>
+                <p> Master the fundamentals of design to create a strong visual identity that resonates.</p>
+                <hr width="100%" color="green" size="1">
+                <div class="devFooter">
+
+                    <div class="devInfo">
+
+                        <img src="assets/drPatelLogo.png" alt="Source not found">
+                        <h4>Mr. Tanaka</h4>
+
+                        <div class="stars">
+                            <img src="assets/star1.png" alt="starRating loading error">
+                            <img src="assets/star1.png" alt="starRating loading error">
+                            <img src="assets/star1.png" alt="starRating loading error">
+                            <img src="assets/star2.png" alt="starRating loading error">
+                        </div>
+                    </div>
+                    <div class="clientButton">
+                        Time Duration
+                        <span id="lessonInfo">
+                            <img src="assets/Group.png" alt="">
+                            40 Lesson
+                            <img src="assets/clock.png" alt="">
+                            6 Hours
+                        </span>
+                        <button>Book Now</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- types of courses section end -->
+
+    <!-- our professionals -->
+    <div class="pro">
+        <h2>Our Professianl Mentors</h2>
+
+        <div class="profesion">
+            <!-- Profession 1 -->
+            <div class="item">
+                <img src="assets/marketer.png" alt="">
+                <h4>John Smith</h4>
+                <hr width="90px" color="red">
+                <p>Marketing</p>
+                <hr size="1" width="100%" color="green">
+                <div class="proIntro">
+                    <span>
+                        4.2k Students
+                    </span>
+                    <span>
+                        200+ Courses
+                    </span>
+                </div>
+            </div>
+            <!-- Profession 2 -->
+            <div class="item" id="profesionItem-2">
+                <img src="assets/designer.png" alt="">
+                <h4>Nalebuff</h4>
+                <hr width="80px" color="blue">
+                <p>Designer</p>
+                <hr size="1" width="100%" color="green">
+                <div class="proIntro">
+                    <span>
+                        4.2k Students
+                    </span>
+                    <span>
+                        200+ Courses
+                    </span>
+                </div>
+            </div>
+            <!-- Profession 3 -->
+            <div class="item">
+                <img src="assets/developer.png" alt="">
+                <h4>Lachinet Doe</h4>
+                <hr width="100px" color="red">
+                <p>Development</p>
+                <hr size="1" width="100%" color="green">
+                <div class="proIntro">
+                    <span>
+                        4.2k Students
+                    </span>
+                    <span>
+                        200+ Courses
+                    </span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- our Professionals end -->
+
+    <!-- people says courses section -->
+    <div class="peopleAboutCourses">
+        <h2>People Says About Courses</h2>
+
+        <div class="peopContianer">
+            <div class="peopelItem">
+                <h3>Master in-demand skills and get ahead in your career</h3>
+                <p>"I never thought I could pick up graphic design at my age, but SkillUp's 'Design Like Da Vinci'
+                    course completely changed that! Ms. Garcia's clear explanations and engaging projects made learning
+                    fun and effective. Now, I'm confidently creating social media graphics for my local bakery, and it's
+                    attracting a whole new wave of customers. Thanks, SkillUp!" - Sarah Miller, Bakery Owner & Design
+                    Enthusiast</p>
+                <span class="sign">Signature :
+                    <hr color="orange">
+                </span>
+            </div>
+            <div class="peopelItem">
+                <img src="assets/mam.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- people says courses section end -->
+
+    <!-- email subscription section -->
+    <div class="emailSubs">
+        <h3>Subscribe to Get Notify</h3>
+        <hr color="blue" width="240px">
+        <div class="emailItem">
+            <div class="emailItemContent">
+                <p> Master the fundamentals of design to create a strong visual identity that resonates.</p>
+            </div>
+            <div class="emailItemContent">
+                <input type="text" placeholder="Enter You're Email...">
+                <input type="button" value="Subscribe">
+            </div>
+        </div>
+    </div>
+    <!-- email subscription section end -->
+
+    <!-- footer -->
+    <div class="footerCont">
+        <img src="assets/logo.png" alt="">
+        <hr color="blue">
+        <div class="footerContItemParent">
+
+            <!-- item - 1 -->
+            <div class="footerContItem">
+                <h2>Explain Education</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus accusamus repudiandae quis
+                    doloremque, quod cum nulla pariatur veritatis corrupti et tempore aspernatur dporis quasi animi.</p>
+            </div>
+
+            <!-- item - 2 -->
+            <div class="footerContItem">
+                <h2>Useful Links</h2>
+                <span>Courses</span>
+                <span>Success Stories</span>
+                <span>Teachers</span>
+            </div>
+
+            <!-- item - 3 -->
+            <div class="footerContItem item-3">
+                <h2>Contact_Us</h2>
+                <span> <i class="fa-solid fa-phone"></i> (406) 555-0120</span>
+                <span> <i class="fa-regular fa-envelope"></i> georgia.young@example.com</span>
+                <span> <i class="fa-solid fa-location-dot"></i> Pasadena, Oklahoma</span>
+
+            </div>
+
+            <!-- item - 4 -->
+            <div class="footerContItem item-4">
+                <h2>Follow Us</h2>
+
+
+                <div class="icon">
+                    <img src="assets/logos_facebook.png" alt="">
+                    <img src="assets/skill-icons_linkedin.png" alt="">
+                </div>
+                <div class="icon">
+                    <img src="assets/skill-icons_instagram.png" alt="">
+                    <img src="assets/logos_twitter.png" alt="">
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+    <!-- footer end -->
+
+
+</body>
+
+</html>

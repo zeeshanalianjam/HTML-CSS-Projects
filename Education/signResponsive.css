@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+}
+
+
+@media screen and (min-width: 370px) and (max-width: 599px) {
+   body{
+    #colorCS {
+        display: none;
+    }
+    form {
+        display: flex;
+        gap: 0px;
+        flex-direction: column;
+    }
+    .box {
+        width: 350px;
+        margin: 0px 30px;
+    }
+    .box input{
+        width: 350px;
+    }
+    .box input[name="lname"] , .box label[for="lname"]{
+        display: none;
+    }
+    .checkBox {
+        margin: 0px 55px;
+        gap: 13px;
+    }
+    .formBtn button {
+        width: 220px;
+        border: none;
+        padding: 10px 0px;
+        cursor: pointer;
+    }
+    .formBtn {
+        gap: 20px;
+    }
+   }
+}
+
+@media screen and (min-width: 200px) and (max-width: 369px) {
+    body{
+        #colorCS {
+            display: none;
+        }
+        form {
+            display: flex;
+            gap: 0px;
+            flex-direction: column;
+        }
+        .box {
+            width: 350px;
+            margin: 0px 30px;
+        }
+        .box input{
+            width: 350px;
+        }
+        .box input[name="lname"] , .box label[for="lname"]{
+            display: none;
+        }
+        .checkBox {
+            margin: 0px 32px;
+            gap: 13px;
+        }
+        .formBtn button {
+            width: 300px;
+            border: none;
+            padding: 10px 0px;
+            cursor: pointer;
+        }
+        .formBtn {
+            gap: 20px;
+        }
+       }
+       #formBtn2 {
+        display: none;
+    }
+}
